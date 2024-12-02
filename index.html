@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center My Life - CSS-Inspired Productivity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Center My Life 🎯</h1>
+            <p class="subtitle">Find your center in the digital chaos 🌌</p>
+        </header>
+
+        <section id="daily-div" class="section">
+            <h2>✨ Centered Div of the Day</h2>
+            <div class="daily-message-container">
+                <div class="daily-message">
+                    Loading your daily inspiration... 🚀
+                </div>
+            </div>
+        </section>
+
+        <section id="task-list" class="section">
+            <h2>🎮 Tasks to Center</h2>
+            <div class="tasks-container">
+                <div class="task" data-completed="false">
+                    <span class="task-text">Complete morning routine 🌅</span>
+                </div>
+                <div class="task" data-completed="false">
+                    <span class="task-text">Plan today's priorities 📝</span>
+                </div>
+                <div class="task" data-completed="false">
+                    <span class="task-text">Take a mindful break 🧘</span>
+                </div>
+            </div>
+            <button id="add-task" class="button">Add New Task ➕</button>
+        </section>
+
+        <section id="zen-garden" class="section">
+            <h2>🎯 Zen Garden Challenge</h2>
+            <div class="zen-garden-container">
+                <div id="target-div" class="moving-div">Center me! 🎯</div>
+                <div class="controls">
+                    <button class="button" id="start-challenge">Start Challenge 🎮</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="trivia" class="section">
+            <h2>🧠 CSS Trivia</h2>
+            <div class="trivia-container">
+                <div class="question-card">
+                    <p class="question">Loading question... 💭</p>
+                    <div class="options"></div>
+                </div>
+                <button class="button" id="next-question">Next Question ➡️</button>
+            </div>
+        </section>
+
+        <section id="mindfulness" class="section">
+            <h2>🧘 Mindfulness Mode</h2>
+            <div class="mindfulness-container">
+                <div class="breathing-circle"></div>
+                <div class="meditation-text">Breathe with the flow...</div>
+                <div class="meditation-timer">00:00</div>
+                <div class="meditation-controls">
+                    <button class="button" id="start-mindfulness">Start Meditation 🧘</button>
+                    <button class="button" id="set-duration">Set Duration ⏱️</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="affirmation-popup" class="popup">
+            <div class="popup-content">
+                <p id="affirmation-text"></p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
